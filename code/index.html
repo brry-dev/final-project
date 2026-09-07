@@ -17,12 +17,12 @@
             <img src="TreactStarterResources/assets/logo.2c489fc453a1783cbadacf914efa3df6.svg" alt="Treact" />
           </div>
           <div class="nav__links">
-            <a class="nav__link">About</a>
-            <a class="nav__link">Blog</a>
-            <a class="nav__link">Contact</a>
-            <a class="nav__link">Login</a>
-            <a class="nav__link nav__link--primary">Sign Up</a>
-        </div>
+            <a href="" class="clickable-text">About</a>
+            <a href="" class="clickable-text">Blog</a>
+            <a href="" class="clickable-text">Contact</a>
+            <a href="" class="clickable-text">Login</a>
+            <button>Sign Up</button>
+          </div>
       </div>
       </nav>
       <button class="btn__menu" onclick="openMenu()"></button>
@@ -52,6 +52,7 @@
         <section>
           <h5>OUR TRUSTED CUSTOMERS</h5>
           <img src="TreactStarterResources/assets/customers-logo-strip.680ac7c2e8ae28161d2c.png" alt="Trusted Customers Logo" />
+          <img src="TreactStarterResources/assets/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg" alt="nav img" />
         </section>
     
     <main>
@@ -61,18 +62,29 @@
             <h3>FEATURES</h3>
             <h1>We Have Amazing <span>Service.</span></h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <ul>
-              <li>Secure</li>
+            
+              <img src="TreactStarterResources/assets/secure-icon.1367510a8f0a1bec76dc425d25f92f43.svg" alt="secure" />
+              <h2>Secure</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              <li>24/7 Support</li>
+
+              <img src="TreactStarterResources/assets/support-icon.1367510a8f0a1bec76dc425d25f92f43.svg" alt="support" />
+              <h2>24/7 Support</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              <li>Customizable</li>
+
+              <img src="TreactStarterResources/assets/customizable-icon.1367510a8f0a1bec76dc425d25f92f43.svg" alt="customizable" />
+              <h2>Customizable</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              <li>Reliable</li>
+
+              <img src="TreactStarterResources/assets/reliable-icon.1367510a8f0a1bec76dc425d25f92f43.svg" alt="reliable" />
+              <h2>Reliable</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              <li>Fast</li>
+
+              <img src="TreactStarterResources/assets/fast-icon.1367510a8f0a1bec76dc425d25f92f43.svg" alt="fast" />
+              <h2>Fast</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              <li>Easy</li>
+
+              <img src="TreactStarterResources/assets/easy-icon.1367510a8f0a1bec76dc425d25f92f43.svg" alt="easy" />
+              <h2>Easy</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </ul>
           </div>
@@ -88,11 +100,13 @@
             <button class="btn__primary">Learn More</button>
           </div>
         </div>
+        <img src="TreactStarterResources/assets/hero-screenshot-1.40a097b525c2f8c9808e.png" alt="quality img" />
       </section>
       
       <section id="steps">
         <div class="container">
           <div class="row">
+            <img src="TreactStarterResources/assets/hero-screenshot-2.241aac1fbc66db29d873.png" alt="steps img" />
             <h3>STEPS</h3>
             <h1>Easy to Get <span>Started.</span></h1>
             <ul>
@@ -122,6 +136,7 @@
             <button class="btn__primary">Learn More</button>
           </div>
         </div>
+        <img src="TreactStarterResources/assets/prototype-illustration.21bc4b3f612a2f257c3d361067582485.svg" alt="values illustration" />
       </section>
       
       <section id="pricing">
@@ -130,7 +145,46 @@
                     <h3>PRICING</h3>
                     <h1>Reasonable & Flexible <span>Plans.</span></h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    /* ADD PRICING CARDS HERE */
+                  <div class="pricing__cards">
+                    <div class="pricing__card">
+                      <h2>PERSONAL</h2>
+                      <h1>$17.99</h1>
+                      <h3>MONTHLY</h3>
+                      <h3>For Individuals</h3>
+                      <ul>
+                        <li>30 Templates</li>
+                        <li>7 Landing Pages</li>
+                        <li>12 Internal Pages</li>
+                        <li>Basic Assistance</li>
+                      </ul>
+                      <button class="btn__primary">BUY NOW</button>
+                    </div>
+                    <div class="pricing__card pricing__card--highlighted">
+                      <h2>BUSINESS</h2>
+                      <h1>$37.99</h1>
+                      <h3>MONTHLY</h3>
+                      <h3>For Small Businesses</h3>
+                      <ul>
+                        <li>60 Templates</li>
+                        <li>15 Landing Pages</li>
+                        <li>22 Internal Pages</li>
+                        <li>Priority Assistance</li>
+                      </ul>
+                      <button class="btn__primary">BUY NOW</button>
+                    </div>
+                    <div class="pricing__card">
+                      <h2>ENTERPRISE</h2>
+                      <h1>$57.99</h1>
+                      <h3>MONTHLY</h3>
+                      <h3>For Large Companies</h3>
+                      <ul>
+                        <li>90 Templates</li>
+                        <li>27 Landing Pages</li>
+                        <li>37 Internal Pages</li>
+                        <li>Personal Assistance</li>
+                      </ul>
+                      <button class="btn__primary">BUY NOW</button>
+                    </div>
                 </div>
             </div>
         </section>
@@ -138,6 +192,7 @@
         <section id="testimonials">
             <div class="container">
                 <div class="row">
+                  <img src="TreactStarterResources/assets/love-illustration.c759090fa833369ad6ffb6eb19cacb3e.svg" alt="love img" />
                     <h3>TESTIMONIALS</h3>
                     <h1>Our Clients <span>Love Us.</span></h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -145,6 +200,10 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis sit id officia cum veniam dignissimos placeat deserunt quis minima, optio dolore! Error libero provident voluptatum dolorem suscipit quia qui numquam.</p>
                 </div>
             </div>
+            <img src="TreactStarterResources/assets/photo-1494790108377-be9c29b29330.avif" alt="review img" />
+            <h3>Charlotte Hale</h3>
+            <p>Director, Delos Inc.</p>
+            <button class="cta">left</button> <button class="cta">right</button>
         </section>
         
         <section id="start">
@@ -161,8 +220,36 @@
     
     <footer>
         <div class="row footer__row">
-          /* ADD FOOTER CONTENT HERE */
-            <p>©2026 Your Company. All rights reserved.</p>
+          <div class="footer__links">
+          <h4>MAIN</h4>
+          <a href="" class="clickable-text">Blog</a>
+          <a href="" class="clickable-text">FAQs</a>
+          <a href="" class="clickable-text">Support</a>
+          <a href="" class="clickable-text">About Us</a>
+          <h4>PRODUCT</h4>
+          <a href="" class="clickable-text">Log In</a>
+          <a href="" class="clickable-text">Personal</a>
+          <a href="" class="clickable-text">Business</a>
+          <a href="" class="clickable-text">Team</a>
+          <h4>PRESS</h4>
+          <a href="" class="clickable-text">Logos</a>
+          <a href="" class="clickable-text">Events</a>
+          <a href="" class="clickable-text">Stories</a>
+          <a href="" class="clickable-text">Office</a>
+          <h4>TEAM</h4>
+          <a href="" class="clickable-text">Career</a>
+          <a href="" class="clickable-text">Founders</a>
+          <a href="" class="clickable-text">Culture</a>
+          <a href="" class="clickable-text">Onboarding</a>
+          <h4>LEGAL</h4>
+          <a href="" class="clickable-text">GDPR</a>
+          <a href="" class="clickable-text">Privacy Policy</a>
+          <a href="" class="clickable-text">Terms of Service</a>
+          <a href="" class="clickable-text">Disclaimer</a>
+          </div>
+          <img src="TreactStarterResources/assets/logo-light.d9a5d1b5be5ea077b26864fdfc2e96a4.svg" alt="Treact Inc." />
+          <p>©2018 Treact Inc. All rights reserved.</p>
+          <button class="cta">facebook</button> <button class="cta">twitter</button> <button class="cta">youtube</button>
         </div>
     </footer>
     </main>
